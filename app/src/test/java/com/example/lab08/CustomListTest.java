@@ -13,7 +13,7 @@ public class CustomListTest {
 
     @Test
     public void testDeleteCity() {
-        CustomList list = new CustomList(null);
+        CustomList list = new CustomList();
         City city = new City("Calgary", "AB");
         list.addCity(city);
         list.deleteCity(city);
